@@ -16,7 +16,6 @@ This lab walks through:
 - Setting up a Sync Group
 - Installing the Azure File Sync agent
 - Creating a Server Endpoint
-- Enabling Cloud Tiering
 - Monitoring sync health and performance
 
 ---
@@ -25,6 +24,5 @@ This lab walks through:
 
 ```mermaid
 graph TD
-    A[On-Premises File Server] -->|Azure File Sync Agent| B[Sync Group]
+     A[On-Premises File Server] -->|Azure File Sync Agent| B[Sync Group]
     B --> C[Azure File Share in Storage Account]
-    C -->|Cloud Tiering| D[Hot/Cold Data]
