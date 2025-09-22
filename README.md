@@ -18,6 +18,11 @@ This lab walks through:
 - Creating a Server Endpoint
 - Monitoring sync health and performance
 
+Lessons Learned
+
+- Azure File Sync centralizes management while keeping data available on-prem.
+- Multi-site sync can be used to replicate data across multiple servers.
+- Monitoring ensures sync jobs are successful and highlights any issues.
 ---
 
 ## 🏗 Architecture
